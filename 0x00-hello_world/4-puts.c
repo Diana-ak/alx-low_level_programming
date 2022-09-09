@@ -3,6 +3,8 @@
 /**
  * Main - Entry point
  *
+ * Description:use the function puts
+ *
  * Return: Always 0 (success)
  */
 int main(void)
