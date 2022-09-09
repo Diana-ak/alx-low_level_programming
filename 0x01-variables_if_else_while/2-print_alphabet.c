@@ -12,7 +12,7 @@ int main (void)
 {
 	char i;
 
-	putchar (i = 'a'); i++;'\n');
+	putchar (i = 'a'); i++ ;;);
 		putchar(i);
 		putchar('\n');
 
