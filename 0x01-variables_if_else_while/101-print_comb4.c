@@ -13,13 +13,13 @@ int main(void)
 	{
 		for (l = k + 1; l < 9; l++)
 		{
-			for (m= l + l; m < 10; m++)
+			for (m = l + l; m < 10; m++)
 			{
 				putchar((k % 10) + '0');
 				putchar((l % 10) + '0');
 				putchar((m % 10) + '0');
 
-				if (k == 7 && l == 8 && m ==9)
+				if (k == 7 && l == 8 && m == 9)
 					continue;
 				putchar(',');
 				putchar(' ');
