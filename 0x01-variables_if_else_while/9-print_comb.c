@@ -10,13 +10,13 @@ int main(void)
 {
 	int k;
 
-	for (k = '0'; k < '10'; k++)
+	for (k = '0'; k < '20'; k++)
 	{
 		putchar(k);
-		if (k != 9)
+		if (k != 19)
 		{
 			putchar(',');
-			putchar('');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
