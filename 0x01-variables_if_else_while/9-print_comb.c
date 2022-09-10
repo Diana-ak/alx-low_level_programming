@@ -10,7 +10,7 @@ int main(void)
 {
 	int k;
 
-	for (k = '0'; k < '20'; k++)
+	for (k = '0'; k < '19'; k++)
 	{
 		putchar(k);
 		if (k != 19)
