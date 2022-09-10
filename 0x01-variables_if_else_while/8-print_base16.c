@@ -11,7 +11,7 @@ int main(void)
 	int k;
 	char alphabet;
 
-	for (k = '0'; k < '9'; k++)
+	for (k = '0'; k <= '9'; k++)
 	{
 		putchar(k);
 	}
