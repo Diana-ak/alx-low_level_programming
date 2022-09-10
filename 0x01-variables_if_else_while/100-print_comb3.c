@@ -7,15 +7,15 @@
 
 int main(void)
 {
-	int digit 1, digit 2;
+	int k, l;
 
-	for (digit 1 = 0; digit 1 < 9; digit 1++)
+	for (k = 0; k  < 9; k++)
 	{
-		for (digit 2 = digit 1 + 1; digit 2 < 10; digit 2++)
+		for (l = k + 1; k < 10; k++)
 		{
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
-			if (digit1 == 8 && digit 2 == 9)
+			putchar((k % 10) + '0');
+			putchar((l % 10) + '0');
+			if (k == 8 && l == 9)
 				continue;
 			putchar(',');
 			putchar(' ');
