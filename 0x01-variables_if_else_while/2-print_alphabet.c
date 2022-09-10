@@ -1,20 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
-int main (void)
+int main(void)
 {
-	char a;
-	
-	for (a = 'a'; a <='z'; a++)
-		putchar(a);
-		putchar('\n');
+	char alphabet;
 
-	return(0);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		putchar(alphabet);
+	putchar('\n');
+
+	return (0);
 }
