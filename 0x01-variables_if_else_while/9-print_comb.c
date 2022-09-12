@@ -13,13 +13,14 @@ int main(void)
 	for (k = '0'; k <= '9'; k++)
 	{
 		putchar((k % 10) + '0');
-		for (k == 9)
-			continue;
+		if (k == 9);
+		continue;
 
 			putchar(',');
 			putchar(' ');
 	
 	}
+
 	putchar('\n');
 	return (0);
 }
