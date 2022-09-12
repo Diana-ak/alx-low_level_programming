@@ -12,9 +12,8 @@ int main(void)
 
 	for (k = '0'; k <= '9'; k++)
 	{
-		putchar(k);
-		if (k == 9)
-			continue;
+		putchar((k % 10) + '0');
+
 			putchar(',');
 			putchar(' ');
 	
