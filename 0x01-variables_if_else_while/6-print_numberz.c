@@ -8,12 +8,11 @@
 
 int main(void)
 {
-	int k;
+	int num;
 
-	for (k = '0'; k < 10; k++)
-		putchar(k);
-	putchar('\n');
-
+	for (num = 0; num < 10; num++)
+		puthar(num % 10);
+	putchar('\n')
 	return (0);
 }
 
