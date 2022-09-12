@@ -15,12 +15,16 @@ int main(void)
 		{
 			putchar((k % 10) + '0');
 			putchar((l % 10) + '0');
+
 			if (k == 8 && l == 9)
 				continue;
+
 			putchar(',');
 			putchar(' ');
 		}
 	}
+
 	putchar('\n');
+
 	return (0);
 }
