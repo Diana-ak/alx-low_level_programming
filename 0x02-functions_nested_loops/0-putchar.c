@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -8,6 +9,8 @@
 
 int main(void)
 {
+	int char _putchar;
+
 	{
 		puts("main.h")
 		putchar(_putchar);
