@@ -8,7 +8,11 @@
 
 int main(void)
 {
-	putchar(_putchar);
+	{
+		puts("main.h")
+		putchar(_putchar);
+	}
+
 	putchar('\n');
 
 	return (0);
