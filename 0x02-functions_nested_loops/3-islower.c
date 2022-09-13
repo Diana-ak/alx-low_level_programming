@@ -4,7 +4,7 @@
 /**
  * _islower -checks lowercase
  *
- * c - ASCII character
+ * @c - c is ascii character
  *
  * Return: 1 if lowercase
  */
