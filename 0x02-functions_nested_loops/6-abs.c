@@ -3,12 +3,12 @@
 
 /**
  * _abs - computes absolute value of integer
- *@int - int is an integer
+ *@n - int is an integer
  *
  * Return: Absolute value of integer
  */
 
-int _abs(int)
+int _abs(int n)
 {
 	if (n > 0)
 	{
@@ -20,6 +20,6 @@ int _abs(int)
 	}
 	else
 	{
-		return (n);
+		return (0);
 	}
 }
