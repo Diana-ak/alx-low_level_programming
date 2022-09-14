@@ -20,7 +20,7 @@ int main(void)
 		sum = one + two;
 		if (sum % 2 == 0)
 		{
-			tota_sum += sum;
+			total_sum += sum;
 		}
 		one = two;
 		two = sum;
