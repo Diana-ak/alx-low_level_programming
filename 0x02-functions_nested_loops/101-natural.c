@@ -5,12 +5,13 @@
  *
  *Return: Alwas 0 (Success)
  */
+
 int main(void)
 {
 	int num, sum;
-	
+
 	sum = 0;
-	
+
 	for (num = 0; num < 1024; num++)
 	{
 		if (num % 3 == 0 || num % 5 == 0)
