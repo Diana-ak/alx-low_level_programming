@@ -3,7 +3,7 @@
 /**
  * _isalpha - Checks for alphabetic character
  *
- * c - ascii character
+ * c: ascii character
  *
  * Return: 1 if a letter (lowercase or uppercase)
  */
