@@ -25,7 +25,7 @@ int main(void)
 		one = two;
 		two = sum;
 	}
-	printf("%li\n", tota_sum);
+	printf("%li\n", total_sum);
 
 	return (0);
 }
