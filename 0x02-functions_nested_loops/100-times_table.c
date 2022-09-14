@@ -21,7 +21,7 @@ void print_times_table(int n)
 				p = r * c;
 				_putchar(40);
 				_putchar(30);
-				else if (p < 10)
+				if (p < 10)
 				{
 					_putchar(30);
 					_putchar(30);
