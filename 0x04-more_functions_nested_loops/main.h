@@ -2,6 +2,12 @@
 #define _MAIN_H
 
 /**
+ * main - header file for prototype
+ * void prototype(void)
+ * int prototype (int)
+ */
+
+/**
  * _isupper - determines uppercase or not
  * @c: character to determine
  * Return: true or false
