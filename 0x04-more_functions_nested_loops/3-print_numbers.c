@@ -1,9 +1,7 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * print_numbers - function that print all numbers from
- *
  *
  */
 void print_numbers(void)
