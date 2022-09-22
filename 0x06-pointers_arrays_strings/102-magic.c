@@ -1,22 +1,27 @@
 #include <stdio.h>
 
 /**
- * print_number - Prints an integer
- * @n: The integer to be printed.
+ * main - Entry point
  *
+ * Return: Always 0
  */
 
-void print_number(int n)
+int main(void)
 {
-	unsigned int num = n;
+	int n;
+	int a[5];
+	int *p;
 
-	if (n < 0)
-	{
-		_putchar('-');
-		num = -num;
-	}
-
-	if ((num / 10) > 0)
-		print_number(num / 10);
-	_putchar((num % 10) + '0');
+	a[2] = 1024;
+	p = &n;
+	/*
+	 * you are not allowed to use a
+	 * you are not allowed to modify p
+	 * only one statement
+	 * you are not allowed to code anything else than this line of code
+	 */
+	p[5] = 98;
+	/* ...so that this prints 98\n */
+	printf("a[2] = %d\n", a[2]);
+	return (0);
 }
