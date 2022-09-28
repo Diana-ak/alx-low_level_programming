@@ -1,6 +1,6 @@
 #include "main.h"
 
-void check(char *, int, int, int);
+void check(char *, int, int, int *);
 
 /**
  * is_palindrome - returns 1 if a string is a palindrome and 0 if not
@@ -13,7 +13,7 @@ int is_palindrome(char *s)
 {
 	int flag = 1;
 
-	check(s, 0, _strlen_recursion -1, &flag);
+	check(s, 0, _strlen_recursion - 1, int *, char *, flag);
 	return (flag);
 }
 
@@ -35,7 +35,7 @@ void check(char *s, int start, int end, int *flag)
 			*flag *= 1;
 		else
 			*flag *= 0;
-		check(s, start + 1, end - 1. flag);
+		check(s, start + 1, end - 1, flag);
 	}
 }
 
