@@ -12,10 +12,6 @@ int check_prime(int, int);
 
 int is_prime_number(int n)
 {
-	int start = n / 2;
-
-	if (n <= 1)
-		return (0);
 	return (check_prime(n, 1));
 }
 
