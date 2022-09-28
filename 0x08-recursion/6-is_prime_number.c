@@ -1,6 +1,6 @@
 #include "main.h"
 
-int check_prime(int, int)
+int check_prime(int n, int i)
 
 /**
  * is_prime_number - returns 1 if the input integer is a prime number, 
@@ -12,6 +12,10 @@ int check_prime(int, int)
 
 int is_prime_number(int n)
 {
+	int start = n / 2;
+
+	if (n <= 1)
+		return (0);
 	return (check_prime(n, 1));
 }
 
