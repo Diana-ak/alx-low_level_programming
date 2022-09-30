@@ -14,6 +14,11 @@ int main(int argc, char *argv[])
 	int i, j;
 	int product = 0;
 
+	if (argc <= 2)
+	{
+		printf("Error\n");
+		return (1);
+	}
 	for (i = 0; i < argc; i++)
 	{
 		for (j = 0; j < argc; j++)
