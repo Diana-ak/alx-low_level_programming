@@ -10,23 +10,27 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
-	int sum = 0;
+	int c, d;
+	int n = 0;
 
-	for (i = 0; i < argc; i++)
+	if (argc < 2)
 	{
-		if (argv[argc])
-			printf("0\n")
+		printf("0\n");
+		return (0);
 	}
-	for (i = 0; argv[i] != '\0'; i++)
+
+	for (c = 1; c < argc; c++)
 	{
-		if (argv[i] < '0' || argv[i] > '9')
+		for (d = 0; argv[c][d] != '\0'; d++)
 		{
-			printf("Error\n");
-			return (1);
+			if (argv[c][d] < '0' || argv[c][d] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+			n += atoi(argv[c]);
 		}
+		printf("%d\n", n);
+		return (0);
 	}
-	sum += atoi(argv[i]);
-	printf("total = %d\n", sum);
-	return (0);
 }
