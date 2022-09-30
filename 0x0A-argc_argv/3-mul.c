@@ -18,10 +18,6 @@ int main(int argc, char *argv[])
 	{
 		printf("Error\n");
 		return (1);
-	}
-	for (i = 0; i < argc; i++)
-	{
-		for (j = 0; j < argc; j++)
 		{
 			printf("%d\n", argv[i][j]);
 
@@ -29,7 +25,7 @@ int main(int argc, char *argv[])
 			j = atoi(argv[2]);
 			product = i * j;
 		}
-		printf("product = %d\n", product);
+		printf("%d\n", product);
 	}
 	return (0);
 }
