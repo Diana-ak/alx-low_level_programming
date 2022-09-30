@@ -11,8 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j;
-	int product = 0;
+	int i, j, product;
 
 	if (argc <= 2)
 	{
