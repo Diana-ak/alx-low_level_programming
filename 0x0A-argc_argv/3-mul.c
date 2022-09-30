@@ -18,8 +18,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 		{
-			printf("%d\n", argv[i][j]);
-
 			i = atoi(argv[1]);
 			j = atoi(argv[2]);
 			product = i * j;
