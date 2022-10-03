@@ -26,6 +26,13 @@ int word_len(char *str)
 	return (len);
 }
 
+/**
+ * count_words - counts the words in string
+ * @str: string to be counted
+ *
+ * Return: word count
+ */
+
 int count_words(char *str)
 {
 	int index = 0;
@@ -59,7 +66,6 @@ char **strtow(char *str)
 
 	if (str == NULL || str[0] == '\0')
 		return (NULL);
-	
 	words = count_words(str);
 	if (words == 0)
 		return (NULL);
