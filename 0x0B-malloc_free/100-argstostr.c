@@ -13,7 +13,7 @@
 char *argstostr(int ac, char **av)
 {
 	char *ar;
-	int i, j, n. m;
+	int i, j, n, m;
 	int k = 0;
 	int counter = 0;
 
