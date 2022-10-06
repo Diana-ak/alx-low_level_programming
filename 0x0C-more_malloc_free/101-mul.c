@@ -113,10 +113,10 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 	for (; mult_len >= 0; mult_len--, mult--, prod--)
 	{
 		if (*mult < '0' || *mult > '9')
-			{
-				printf("Error\n");
-				exit(98);
-			}
+		{
+			printf("Error\n");
+			exit(98);
+		}
 		num = (*mult - '0') * digit;
 		num += tens;
 		*prod = (num % 10) + '0';
