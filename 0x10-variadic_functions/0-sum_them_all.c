@@ -7,8 +7,7 @@
  * @n: The number of paramters passed to the function
  * @...: A variable number of paramters to calculate the sum of
  *
- *Return: Always 0
- *
+ *Return:returns sum
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -16,6 +15,9 @@ int sum_them_all(const unsigned int n, ...)
 	unsigned int index, sum = 0;
 
 	va_start(nums, n);
+
+	if (n == 0)
+		return (0);
 
 	for (index = 0; index < n; index++)
 		sum += va_arg(nums, int);
