@@ -13,10 +13,8 @@ int main(void)
 
 	for (k = '0'; k <= '9'; k++)
 		putchar(k);
-	
 	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
-		putchar(alphabet);
-	
+		putchar(alphabet);	
 	putchar('\n');
 	return (0);
 }
