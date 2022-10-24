@@ -22,7 +22,5 @@ int main(void)
 		if (k == '9')
 			putchar(k);
 	}
-
-	putchar('\n');
 	return (0);
 }
