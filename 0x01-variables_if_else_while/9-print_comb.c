@@ -20,7 +20,7 @@ int main(void)
 	}
 	{
 		if (k == '9')
-			putchar(k );
+			putchar(k);
 	}
 	return (0);
 }
