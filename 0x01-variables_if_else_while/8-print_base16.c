@@ -9,17 +9,14 @@
 int main(void)
 {
 	int k;
-	char alphabet;
+	char alpha;
 
 	for (k = '0'; k <= '9'; k++)
-	{
 		putchar(k);
-	}
-	k = '1';
+	
 	for (alphabet = 'a'; alphabet <= 'f'; alphabet++)
-	{
 		putchar(alphabet);
-	}
+	
 	putchar('\n');
 	return (0);
 }
