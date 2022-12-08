@@ -5,11 +5,13 @@
  * @head: head node of the list
  * @index: node to locate
  *
- * Return : index or NULL on non-existence
+ * Return: index or NULL on non-existence
  */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
+	unsigned int index;
+
 	for (; index != 0; index--)
 	{
 		if (head == NULL)
